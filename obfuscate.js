@@ -382,7 +382,7 @@ if(input.toLowerCase() == questionsI1) {
     alert("Correct. Nice!!")
     gameOver()
 } else {
-    alert("Incorrect. Remember .pop takes no arguments")
+    alert("Incorrect.")
 };
 };
 
