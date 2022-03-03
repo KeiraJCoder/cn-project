@@ -454,7 +454,7 @@ function check27(){
 if(input.toLowerCase() == questionsM1) {
     score++;
     alert("Correct. Nice!!")
-    gameOver
+    gameOver()
 } else {
     alert("Incorrect. Python is white space dependent")
 };
