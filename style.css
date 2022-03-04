@@ -182,12 +182,14 @@ a{
 #score
 {
     position: fixed;
+    display:flex;
+    flex-wrap:wrap;
     top: 5%;
     left: 6%;
     z-index: 100;
     color:black;
     background-color: #f5b32f;
     border-style: double;
-    font-size:30px;
+    font-size:25px;
     font-family: "gilroylight", serif;
 }
