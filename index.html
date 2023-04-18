@@ -514,8 +514,22 @@ This is a comment
 <!-- =======================================================================  -->
 </div>
 <div id="score"><script>gameOver()</script></div> 
+<!-- =======================================================================  -->
+<form id="quizForm" method="post" action="submit_score.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="hidden" id="score" name="score">
+        <button type="submit">Submit Score</button>
+    </form>
 
+    <script>
+        // Replace this with the actual score from the quiz
+        let score = 25; 
 
+        document.getElementById("score").value = score;
+    </script>
+
+<!-- =======================================================================  -->
 </body>
 </html>
 
