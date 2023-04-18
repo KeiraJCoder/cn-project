@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="obfuscate.js"></script>
+    
     <style>
         .hidden-input {
             display: none;
@@ -535,13 +535,13 @@ This is a comment
         <button type="submit">Submit Score</button>
     </form>
 
-    <script>
-        window.onload = function() {
-            // Call the getQuizScore() function from your quiz script
-            let quizScore = getQuizScore();
-            document.getElementById("score").value = quizScore;
-        };
-    </script>
+    <script src="your-quiz-script.js"></script>
+<script>
+    window.onload = function() {
+        let quizScore = getQuizScore();
+        document.getElementById("score").value = quizScore;
+    };
+</script>
 
 <!-- =======================================================================  -->
 </body>
