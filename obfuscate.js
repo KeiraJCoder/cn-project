@@ -510,12 +510,10 @@ if(input.toLowerCase() == questionsO9 || input.toLowerCase() == questions19) {
 };
 };
 
-function gameOver()
-{
-
-    document.getElementById('score').innerHTML = "Current score: " + score;
+function gameOver() {
+    // Update the input field with the ID 'score' in the form
+    document.getElementById('score').value = score;
 }
-
 var score = 0;
 
 
