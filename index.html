@@ -526,22 +526,17 @@ This is a comment
     >
         <label>
             Name:
-            <input type="text" placeholder="Your Name" id="name" name="name" required>
+            <input type="text" placeholder="Enter Name" id="name" name="name" required>
         </label>
-        <label class="hidden-input">
+        <label>
             Score:
-            <input type="text" id="score" name="score">
+            <input type="text" placeholder="Enter Score" id="score" name="score" required>
         </label>
         <button type="submit">Submit Score</button>
     </form>
 
     <script src="obfuscate.js"></script>
-<script>
-    window.onload = function() {
-        let quizScore = getQuizScore();
-        document.getElementById("score").value = quizScore;
-    };
-</script>
+
 
 <!-- =======================================================================  -->
 </body>
