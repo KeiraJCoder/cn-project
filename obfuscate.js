@@ -511,6 +511,9 @@ if(input.toLowerCase() == questionsO9 || input.toLowerCase() == questions19) {
 };
 
 function gameOver() {
+    // Update the floating box
+    document.getElementById('floating-score').innerHTML = "Current score: " + score;
+
     // Update the input field with the ID 'score' in the form
     document.getElementById('score').value = score;
 }
