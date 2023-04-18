@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="obfuscate.js"></script>
+    <style>
+        .hidden-input {
+            display: none;
+        }
+    </style>    
     <title>Python Quiz</title>
 </head>
 <body>
@@ -523,23 +528,21 @@ This is a comment
             Name:
             <input type="text" id="name" name="name" required>
         </label>
-        <input type="hidden" id="score" name="score">
+        <label class="hidden-input">
+            Score:
+            <input type="text" id="score" name="score">
+        </label>
         <button type="submit">Submit Score</button>
     </form>
 
     <script>
         // Replace this with the actual score from the quiz
-        let score = 25; 
+        let quizScore = 25;
 
-        document.getElementById("score").value = score;
-        
-        
+        window.onload = function() {
+            document.getElementById("score").value = quizScore;
+        };
     </script>
-<style>
-    .hidden-input {
-            display: none;
-        }
-</style>
 
 <!-- =======================================================================  -->
 </body>
