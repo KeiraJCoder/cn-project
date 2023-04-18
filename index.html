@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <style>
-        .hidden-input {
-            display: none;
-        }
-    </style>    
+  
     <title>Python Quiz</title>
 </head>
 <body>
@@ -27,7 +23,7 @@
 <div id="QUESTIONS">
 <!-- =====================QUESTION 1================================================== -->
 
-    <form id="myForm" onsubmit="check1(); return false" autocomplete="off">
+    <form id="myForm" id="submit-score" onsubmit="check1(); return false" autocomplete="off">
         <h2>Task 1</h2> 
     
         <p>How would you make the terminal say Hello World?</p>
@@ -64,6 +60,7 @@
         <h2>Task 4</h2> 
         
         <p>Fix this variable so it is best practice</p>
+        
         <code>2my-1st_name = "john'</code>
 
         <input type="text" id="q4"><br>
@@ -367,7 +364,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q21"><br>
-    <button id="twentyone" class="btn" type="submit">Submit</button> 
+    <button id="twenty-one" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 22=========================================  -->
@@ -379,7 +376,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q22"><br>
-    <button id="twentytwo" class="btn" type="submit">Submit</button> 
+    <button id="twenty-two" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 23=========================================  -->
@@ -391,7 +388,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q23"><br>
-    <button id="twentythree" class="btn" type="submit">Submit</button> 
+    <button id="twenty-three" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 24=========================================  -->
@@ -403,7 +400,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q24"><br>
-    <button id="twentyfour" class="btn" type="submit">Submit</button> 
+    <button id="twenty-four" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 25=========================================  -->
@@ -415,7 +412,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q25"><br>
-    <button id="twentyfive" class="btn" type="submit">Submit</button> 
+    <button id="twenty-five" class="btn" type="submit">Submit</button> 
 </form>
 
 
@@ -432,7 +429,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q26"><br>
-    <button id="twentysix" class="btn" type="submit">Submit</button> 
+    <button id="twenty-six" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 27=========================================  -->
@@ -450,7 +447,7 @@ cash_machine(1234, 400) <br>
 
 
     <input type="text" id="q27"><br>
-    <button id="twentyseven" class="btn" type="submit">Submit</button> 
+    <button id="twenty-seven" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 28=========================================  -->
@@ -468,7 +465,7 @@ cash_machine(1234, 400) <br>
  </code>
 
     <input type="text" id="q28"><br>
-    <button id="twentyeight" class="btn" type="submit">Submit</button> 
+    <button id="twenty-eight" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 29=========================================  -->
@@ -483,7 +480,7 @@ True
  </code>
 
     <input type="text" id="q29"><br>
-    <button id="twentynine" class="btn" type="submit">Submit</button> 
+    <button id="twenty-nine" class="btn" type="submit">Submit</button> 
 </form>
 
 <!--==============================QUESTION 30=========================================  -->
@@ -511,22 +508,23 @@ This is a comment
 <div id="floating-score"><script>gameOver()</script></div>
 
 <!-- =======================================================================  -->
-<form
+<div class="footer">
+    <form
     id="QUESTIONS"
     action="https://formspree.io/f/mdovyogz"
     method="POST"
 >
     <label>
         Name:
-        <input type="text" id="name" name="name" required>
-    </label>
+        <input type="text" placeholder="Enter name" id="name" name="name" required>
+    </label><br>
     <label>
-        Score:
-        <input type="text" id="score" name="score" readonly>
-    </label>
-    <button type="submit">Submit Score</button>
+        Final Score:
+    <input type="text" id="score" name="score" placeholder="" readonly disabled class="disabled-input">
+    </label><br>
+    <button type="submit" onclick="submitScore();">Submit Score</button>
 </form>
-
+</div>
     <script src="obfuscate.js"></script>
 
 

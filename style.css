@@ -16,7 +16,6 @@
 body {
   background-color: rgb(39, 78, 155);
 
-
   }
 
 .btn{
@@ -59,7 +58,244 @@ code {
   text-align: start;
 }
 
-form {
+/* form {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+} */
+
+
+
+#myForm {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm2 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm3 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm4 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm5 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm6 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm7 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm8 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm9 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm10 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm11 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm12 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm13 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm14 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm15 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm16 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm17 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm18 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm19 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm20 {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -76,12 +312,136 @@ input{
   display:flex;
   align-self: center;
   flex-wrap: wrap;
-  width:60%;
+  /* width:60%; */
+}
+
+#myForm21 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm22 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#myForm23 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm24 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm25 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm26 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm27 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm28 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm29 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+#myForm30 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+input[type="text"] {
+  font-size: 24px; /* Set the desired font size */
 }
   
 input[type=submit] {
  
   display:flex;
+  font-size:45px;
   justify-content: center;
   flex-wrap: wrap;
   font-size: 0.4.6em;
@@ -127,16 +487,16 @@ li {
   color: #f5b32f;
 }
 
-#name{
+/* #name{
   display:flex;
   padding:30px;
   flex-direction: row;
   align-items:center;
   font-family: "gilroylight", serif;
   color: #f5b32f;
-  font-size: 25px;
-  size:auto;
-}
+  font-size: 35px;
+ 
+} */
 
 .btn2{
   display: flex;
@@ -190,6 +550,39 @@ a{
     color:black;
     background-color: #f5b32f;
     border-style: double;
-    font-size:25px;
+    font-size: 28px;
     font-family: "gilroylight", serif;
+}
+
+/* #QUESTIONS {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+} */
+
+label{
+
+  font-family: "gilroyextrabold", serif;
+  font-size:25px;
+  font-weight:bold;
+  
+
+}
+
+.footer {
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+}
+
+.disabled-input {
+  background-color: #ffffff;
+  color: black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  width:100%;
 }
