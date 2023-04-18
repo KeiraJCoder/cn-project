@@ -179,7 +179,7 @@ a{
   width:100%;
 }
 
-#score
+#floating-score
 {
     position: fixed;
     display:flex;
