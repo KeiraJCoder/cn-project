@@ -23,17 +23,6 @@
     Enter your answer to each task and then press submit to get your score!<br><br>
     Have fun!</p>
 
-<!-- =============================NAME INPUT========================================== -->
-
-<!-- UNDER CONSTRUCTION -->
-
-<!-- <form id="name">
-        <input type="text" name="firstName" placeholder="FORM CURRENTLY UNDER CONSTRUCTION" required autocomplete="off"> <br>
-        <input type="text" name="lastName" placeholder="FORM CURRENTLY UNDER CONSTRUCTION" required autocomplete="off"> <br>
-        <br><br>
-        <input type="submit" name="submit" value="Submit">
-</form> -->
-
 
 <div id="QUESTIONS">
 <!-- =====================QUESTION 1================================================== -->
@@ -521,19 +510,20 @@ This is a comment
 <div id="score"><script>gameOver()</script></div> 
 <!-- =======================================================================  -->
 <form
-        action="https://formspree.io/f/mdovyogz"
-        method="POST"
-    >
-        <label>
-            Name:
-            <input type="text" placeholder="Enter Name" id="name" name="name" required>
-        </label>
-        <label>
-            Score:
-            <input type="text" placeholder="Enter Score" id="scores" name="score" required>
-        </label>
-        <button type="submit">Submit Score</button>
-    </form>
+    id="QUESTIONS"
+    action="https://formspree.io/f/mdovyogz"
+    method="POST"
+>
+    <label>
+        Name:
+        <input type="text" id="name" name="name" required>
+    </label>
+    <label>
+        Score:
+        <input type="text" id="score" name="score" readonly>
+    </label>
+    <button type="submit">Submit Score</button>
+</form>
 
     <script src="obfuscate.js"></script>
 
