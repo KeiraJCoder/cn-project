@@ -519,9 +519,8 @@ var score = 0;
 
 // ==========================STOP PAGE REFRESH ON SUBMIT=============================================
 
-
-document.getElementById("QUESTIONS").addEventListener("submit", function(e){
-e.preventDefault();
+document.getElementById("QUESTIONS").addEventListener("submit", function(e) {
+    e.preventDefault();
 });
 
 
