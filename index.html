@@ -536,10 +536,9 @@ This is a comment
     </form>
 
     <script>
-        // Replace this with the actual score from the quiz
-        let quizScore = 25;
-
         window.onload = function() {
+            // Call the getQuizScore() function from your quiz script
+            let quizScore = getQuizScore();
             document.getElementById("score").value = quizScore;
         };
     </script>
