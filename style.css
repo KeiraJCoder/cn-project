@@ -16,6 +16,7 @@
   flex-wrap: wrap; /* This allows the content to wrap to a new line when needed */
   width: 100%; /* Ensures the container takes up the full width */
   min-height: 100vh; /* Ensures the container takes up the full height */
+  text-align:center;
 }
 
 /* Media query for mobile devices */
@@ -35,6 +36,31 @@
     max-width: 80%; /* Adjust this percentage to control the content width on larger screens */
   }
 }
+
+@media (max-width: 768px) {
+  .btn {
+    width: 50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media (max-width: 480px) {
+  .text-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
 
 *{
   box-sizing: border-box;
@@ -82,20 +108,25 @@ p {
 li {
   display: flex;
   align-items:center;
+  justify-content: center;
   text-align: center;
   font-family: "gilroylight", serif;
-  font-size: 25px;
+  font-size: 0.4em;
   color: #f5b32f;
 }
+@media (max-width: 768px) {
+  li {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+
 a{
   display:flex;
   justify-content:center;
   color:#f5b32f;
   font-family: "gilroylight", serif;
 }
-
-
-
 
 /* ######## SUBMIT BUTTONS ####### */
 
@@ -104,8 +135,9 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  width:10%;
-  margin-left:45%;
+  width:20%;
+  margin-left:auto;
+  margin-right:auto;
   background-color: #f5b32f;
   border-radius:21% ;
   border-color: #ffffff;
@@ -121,26 +153,35 @@ a{
   font-weight: bold;
 }
 
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f5b32f;
+  border-radius: 25%;
+  border-color: #ffffff;
+  
+  font-size: 0.8em;
+}
+
 .btn2:focus {
   color: #1000f5;
 }
 
-.btn2{
-  display:flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-left:25%;
-  background-color: #f5b32f;
-  border-radius:25% ;
-  border-color: #ffffff;
-  padding:10%;
-}
-
 .btn2:hover {
   background-color: rgb(56, 115, 233);
-  color:#f5b32f;
+  color: #f5b32f;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .btn2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ########### Image #############*/
@@ -160,19 +201,15 @@ img:hover{
 /* Formatting colour of code displayed */
 
 code {
-  display:flex;
-  justify-content: center;
-  text-align: center;
+
   font-size: 1.75vw;
   color:greenyellow;
 }
 
 /* Formatting colour of error message displayed */
 .error {
-  display:flex;
-  justify-content: center;
   color:red;
-  text-align: start;
+
 }
 
 /* ####### INPUTS ######### */
@@ -181,20 +218,36 @@ code {
 
 input[type="text"] {
   font-size: 1.5vw;
-  display:flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
-  width:100%;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1em; /* Add some margin to separate the input boxes from the button */
 }
   
 input[type="submit"] {
-
-  display:flex;
-  font-size: 2.3vw; 
+  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  /* font-size: 0.4.6em; */
+  align-items: center;
+  text-align: center;
+  font-size: 2vw; /* Adjust the font size as needed */
   background-color: rgb(255, 251, 0);
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em 2em; /* Add some padding to make the button easier to click */
+}
+
+th {
+  font-family: "gilroyextrabold", serif;
+  font-size: 2vw; /* Adjust the font size as needed */
+  color: #f5b32f;
+  text-align: center; /* Add this property to center the text within the table cell */
+}
+
+td {
+  font-family: "gilroylight", serif;
+  font-size: 1.5vw; /* Adjust the font size as needed */
+  color: #ffffff;
 }
 
 /* Top left score keeper */
@@ -233,15 +286,14 @@ input[type="submit"] {
 /* Footer, containing the submission form */
 
 .footer {
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   font-family: "gilroyextrabold", serif;
-  font-size:25px;
-  font-weight:bold;
-
+  font-size: 2vw; /* Adjust the font size as needed */
+  font-weight: bold;
 }
 
 /*  COMPANY NAME AT TOP */
