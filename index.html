@@ -447,12 +447,13 @@
         <form id="myForm27" onsubmit="check27(); return false"autocomplete="off">
             <h2>Task 27</h2> 
             <p>A while loop in Python is used for what type of iteration?</p>
-        
-            <li>Indeterminate</li>
-            <li>Indefinite</li>
-            <li>Discriminant</li>
-            <li>Definite</li>
-        
+            
+            <p>
+                Indeterminate<br>
+                Indefinite<br>
+                Discriminant<br>
+                Definite
+            </p>
 
 
             <input type="text" id="q27"><br>
@@ -510,7 +511,7 @@
 
 
 
-</div>
+
     <!-- =======================================================================  -->
 
     <!-- Floating box -->
@@ -522,27 +523,31 @@
     <!-- =======================================================================  -->
 
         <div class="footer">
+            <div class="form1">
                 <form
                 id="QUESTIONS"
                 action="https://formspree.io/f/mdovyogz"
                 method="POST">
-                <label>
-                    Name:
-                    <input type="text" placeholder="Enter name" id="name" name="Name" required>
-                </label><br>
-                <label>
-                    Final Score:
-                <input type="text" id="score" name="Score" placeholder="" readonly disabled class="disabled-input">
-                </label><br>
-                <label>
-                    Time:
-                <input type="text" id="timer" name="Time" placeholder="" readonly disabled class="disabled-input">
-                </label><br>
+                    <label>
+                        <p>Name:</p>
+                        <input type="text" placeholder="Enter name" id="name" name="Name" required>
+                    </label>
+                    <label>
+                        <p>Score:</p>
+                    <input type="text" id="score" name="Score" placeholder="" readonly disabled class="disabled-input">
+                    </label>
+                    <label>
+                        <p>Time:</p>
+                    <input type="text" id="timer" name="Time" placeholder="" readonly disabled class="disabled-input">
+                    </label>
+                </div>
                 <button class="btn2" type="submit" onclick="submitScore();">Submit Score</button>
             </form>
+                
+            
         </div>
             <script src="obfuscate.js"></script>
-
+</div>
 </div>
 
 <!-- =======================================================================  -->

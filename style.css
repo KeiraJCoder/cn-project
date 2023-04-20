@@ -8,6 +8,11 @@
   src: url("Gilroy-Light.otf");
 }
 
+*{
+  box-sizing: border-box;
+  padding:20px;
+}
+
 /* General styling and setting up flex container */
 .container {
   display: flex;
@@ -53,18 +58,11 @@
   text-align: center;
 }
 
-
 @media (max-width: 480px) {
   .text-container {
     max-width: 100%;
     padding: 10px;
   }
-}
-
-
-*{
-  box-sizing: border-box;
-  padding:22px;
 }
 
 /* ############################## */
@@ -153,17 +151,25 @@ a{
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  input[type="submit"] {
+    height: 50px; /* adjust the height as needed */
+  }
+}
+
 .btn2 {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
   background-color: #f5b32f;
   border-radius: 25%;
   border-color: #ffffff;
-  
-  font-size: 0.8em;
+  font-size: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 .btn2:focus {
@@ -201,7 +207,6 @@ img:hover{
 /* Formatting colour of code displayed */
 
 code {
-
   font-size: 1.75vw;
   color:greenyellow;
 }
@@ -209,20 +214,20 @@ code {
 /* Formatting colour of error message displayed */
 .error {
   color:red;
-
 }
 
 /* ####### INPUTS ######### */
 
-
-
 input[type="text"] {
   font-size: 1.5vw;
-  display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  width: 100%;
-  margin-bottom: 1em; /* Add some margin to separate the input boxes from the button */
+  align-items: center;
+  width: 50%; /* adjust the width as needed */
+}
+
+input[name="Name"], input[name="Score"], input[name="Time"] {
+  width: 100%; /* adjust the width as needed */
 }
   
 input[type="submit"] {
@@ -230,25 +235,39 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2vw; /* Adjust the font size as needed */
+  font-size: 2vw;
   background-color: rgb(255, 251, 0);
   border: none;
   border-radius: 0.5em;
-  padding: 0.5em 2em; /* Add some padding to make the button easier to click */
+  padding: 0.5em 2em;
+  width: 100%; /* adjust the width as needed */
+  height: 60px; /* add the height property */
 }
 
-th {
-  font-family: "gilroyextrabold", serif;
-  font-size: 2vw; /* Adjust the font size as needed */
-  color: #f5b32f;
-  text-align: center; /* Add this property to center the text within the table cell */
+/* #######FORM BOXES ######### */
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-td {
-  font-family: "gilroylight", serif;
-  font-size: 1.5vw; /* Adjust the font size as needed */
-  color: #ffffff;
+.form1{
+  display:flex;
+  text-align:center;
+  justify-content: center;
+  align-items:space-evenly;
+  flex-direction:row;
+  max-width: 800px; /* adjust the max-width as needed */
 }
+
+label {
+  flex-basis: 30%;
+  margin-right: 10px;
+}
+
 
 /* Top left score keeper */
 
@@ -292,8 +311,16 @@ td {
   flex-direction: column;
   text-align: center;
   font-family: "gilroyextrabold", serif;
-  font-size: 2vw; /* Adjust the font size as needed */
+  font-size: 2vw;
   font-weight: bold;
+}
+/* -----------Final Score box ----------- */
+.disabled-input {
+  background-color: #ffffff;
+  color: #f5b32f;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /*  COMPANY NAME AT TOP */
@@ -310,15 +337,8 @@ td {
   height: auto;
 }
 
-/* -----------Final Score box ----------- */
-.disabled-input {
-  background-color: #ffffff;
-  color: #f5b32f;
-  display:flex;
-  justify-content: center;
-  text-align: center;
-  
-}
+
+
 /* ########################################
  */
 /* Individual question boxes */
